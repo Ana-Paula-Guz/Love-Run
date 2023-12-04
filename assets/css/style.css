@@ -131,6 +131,40 @@ main {
     color: #3a3a3a;
 }
 
+/*Style Reasons section*/
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons>h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+/*Style the line under the headings*/
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+/*Style the div benefits*/
+#benefits-physical>div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#benefits-mental>div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+/*Style paragraphs*/
+#benefits>p {
+    padding: 0 20px;
+}
+
 /*Media query: tablets and larger 768px and up*/
 @media screen and (min-width: 768px) {
 
